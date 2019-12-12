@@ -15,6 +15,7 @@ def coin_counter
   @nickels = (@input / 5).floor()
   @input = @input - (@nickels * 5)
   @pennies = @input
+
   return "You have #{@quarters} quarters, #{@dimes} dimes, #{@nickels} nickels, #{@pennies} pennies."
 end
 
